@@ -1,0 +1,26 @@
+ul{
+    width: 800px;
+    background-color: aqua;
+}
+ul li {
+    display: inline-block; /*yanyana yazdırdı*/
+    list-style: none;  /*listin başında olan noktayı kaldırdı*/
+    width: 15%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+ul li a {
+    text-decoration: none; /*altındaki link çizgisini kaldırdı*/
+    color: red;
+}
+ul li a i{
+    font-size: 10px;
+    margin-right: 5px;
+    color: rgba(5, 41, 41, 0.357);
+}
+ul li:hover {  /* üstüne gelindiğinde anlamı katar */
+ text-decoration: underline; /*link çizgisini oluşturur*/
+ background-color: rgba(108, 20, 137, 0.283);
+}
